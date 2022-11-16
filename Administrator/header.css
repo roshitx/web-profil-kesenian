@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
+
+
+.sidebar {
+    height: 100%;
+    width: 200px;
+    background-color: #013a63;
+    position: fixed;
+    left: 0;
+}
+
+.sidebar .logo-sidebar {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.sidebar .logo-sidebar img {
+    width: 120px;
+}
+
+.sidebar h4 {
+    font-size: 40px;
+    font-weight: bold;
+    margin-top: 40px;
+    color: #fff;
+}
+
+.sidebar .list-sidebar {
+    padding-top: 60px;
+    display: flex;
+}
+
+.sidebar .list-sidebar ul {
+    list-style-type: none;
+    justify-content: center;
+    font-weight: bold;
+}
+
+
+.sidebar .list-sidebar ul a {
+    text-decoration: none;
+    color: white;
+    transition: all 500ms;
+}
+
+.sidebar .list-sidebar ul a:hover {
+    color: #ffda1f;
+}
+
+.sidebar .copyright {
+    height: 40px;
+    color: black;
+    display: flex;
+    justify-content: center;
+    position: relative;
+    bottom: 0;
+}
+
+.copyright p {
+    line-height: 40px;
+    font-size: 12px;
+    color: #eee;
+    margin-top: 0;
+}
+
+.copyright p a {
+    text-decoration: none;
+    color: #eee;
+}
+
+.copyright p a:hover {
+    text-decoration: underline;
+    color: #ffda1f;
+}
+
+.button-logout {
+    position: relative;
+    left: 35px;
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+
+.btn-group {
+    position: relative;
+    left: 35px;
+}
